@@ -1,0 +1,87 @@
+{
+  "timetable": {
+    "monday": {
+      "name": [
+        "PEMODELAN SISTEM BERORIENTASI OBJEK",
+        "AKUNTANSI DASAR DAN PRAKTIK"
+      ],
+      "time": [
+        [
+          "09:10",
+          "12:30"
+        ],
+        [
+          "12:30",
+          "15:00"
+        ]
+      ],
+      "link": [
+        "http://elearning.bsi.ac.id/absen-mhs/eyJpdiI6InVQbWcxWTVYU3NqSmlpK0JMQStlNnc9PSIsInZhbHVlIjoiMEh2WWx5MlZBd2wwOTJvaUk0T1daY2FCYk9FaExqckZWYm1JL0JEUGRGQi9SZEZxWGl2d3hYNmVNMU1Kc3hFVFlVSGQ2UzdLRkE1THVGUlY4T1BzcVFjbFJOSHkrclMzV2EvNmt3a2VMbG89IiwibWFjIjoiZDRhZWNlMDJmMTU3Mzk4OTk3ZTg4MTJhYmUxOTQ4MmEzMTY4ODcxNWJlZDg5M2EzY2ViZGQwMDUyODNhZDYwZSJ9",
+        "http://elearning.bsi.ac.id/absen-mhs/eyJpdiI6IkQzMWt1Yi9BMVVhWkI5aysvL29RUVE9PSIsInZhbHVlIjoiTGFVaGVZaHJDT1o3R05EL2d2MUNLNEpESndpQXB5Z3hJU2gyOWVaOFVqMFpEMHdGa3lFbUxNVHFWczJscURLOXNRUG96cFJQckVVRUtZOTZNSGxBK0poam5vSXk5ZWJUNkZidjJKWU1pVXc9IiwibWFjIjoiNTg1NDU2YTEzMTU0MWI5ZGNlM2M1NmFmNDFhZGIxOGRmODMwNmZiOTE2YTEwY2ZhM2QwMjk5ZTRlZTU4OGFjNyJ9"
+      ]
+    },
+    "tuesday": {
+      "name": "WEB PROGRAMMING II",
+      "time": [
+        "12:30",
+        "15:50"
+      ],
+      "link": "http://elearning.bsi.ac.id/absen-mhs/eyJpdiI6IkxNNGV0WE55SHVpNUFBUzk3b3ZnOXc9PSIsInZhbHVlIjoiRks5QXIvZEV6UE9qMFRydmNNRGgwOGQvcVZMVDFqR3EzL09KcFpaWWZtSEVzQWc1TkozUVY3TkxjTzEweWRNSmljcDJXN2dTMlI1bG9jbG05T09HVnNTQW9xNk82L3VkcXB5R0ZLeFRvMms9IiwibWFjIjoiMDExM2Q5ODcwNDk3YjIyM2JhNjQ3MWQ0NmE0ZGY5ZjQzMWQ2NmQ1MGMxZTk0NDg1MDQ1YTRiMWQwMjYzOGVjNiJ9"
+    },
+    "wednesday": {
+      "name": [
+        "SISTEM INFORMASI MANAJEMEN",
+        "CHARACTER BUILDING"
+      ],
+      "time": [
+        [
+          "10:00",
+          "12:30"
+        ],
+        [
+          "12:30",
+          "15:50"
+        ]
+      ],
+      "link": [
+        "http://elearning.bsi.ac.id/absen-mhs/eyJpdiI6ImVIQ2NVZm9jMk5BVTBGQUxBK3pXOGc9PSIsInZhbHVlIjoiUitkZjFKalJudlRHYTZpUzJqUis4UXNyQ3hTYjJ4VHhkQ3l4czRvWjM1cmJaenVyNzUvdHhPaGtqS0xhNjZDbjcxdW9uVlBKUW9ib3l3T0I4Y01EME11Sno4SGx0Z2dLR2h0Yk9GVWR2WDg9IiwibWFjIjoiNGNhMTA1OTFhYzA1MTJhZTQyY2VhMzExNTYxOTkzYjA5ZjQ1MWY1YzNhMWZmMzUzZmEwOGQ0YjRiYzJmZjUyOSJ9",
+        "http://elearning.bsi.ac.id/absen-mhs/eyJpdiI6IkRXVGNWTGNGWFcvKzZPdmM2eUwrREE9PSIsInZhbHVlIjoiNDNDR0RYY2V5VVp6NDFtbWpuY2hhQUlmRjl2b2dzUS9WbE5ueEJJWXN0MDdKVW95MFRMKzBxVlR3TnFqdDZTb09sSnVCcnFSM1F5NXg0Z0dmamlMTGc9PSIsIm1hYyI6ImJhNTI5Njk1YWZhY2E0MjU1YzNjNmJiNjU4YTNjYzc2OTViMGI2MjJjNTc2MGRiMTlhMTIwNDU4NjEwYzEwYTEifQ=="
+      ]
+    },
+    "thursday": {
+      "name": [
+        "SISTEM OPERASI",
+        "STATISTIKA"
+      ],
+      "time": [
+        [
+          "10:00",
+          "12:30"
+        ],
+        [
+          "12:30",
+          "15:00"
+        ]
+      ],
+      "link": [
+        "http://elearning.bsi.ac.id/absen-mhs/eyJpdiI6IkdHZy9OK3ZCUEFMN3dVTEVvTXNkeVE9PSIsInZhbHVlIjoiamN2OW1pRklyb25acHNEK1dqT1VOMHNBMkFwbFdqZjJFQWlaakh1Q1psRkxKVWkrWGtjcWpWRzFxTFdkUVBpS1ZBTmxmdEM2U3pIelBQMmtyRmxKVXc9PSIsIm1hYyI6IjRlZjc5YzQ5NzRlZTQ5NDUzZDJiZTI0ZDk5NDc0Njg4OGQxZWRmZDEyZWJjNjgwOWQ1NmEzNzYzMjRiZmY1NGIifQ==",
+        "http://elearning.bsi.ac.id/absen-mhs/eyJpdiI6InI5M0tWUDZPN2xvM282MUZ3RmVUTGc9PSIsInZhbHVlIjoiOCtzcVB5VFMzbFhRaWVSMzZyQmdRbHhQZjI4bC9Ga1NocGN0Q25Ud1BvVjQ2LzVteUkxMjZDV25HcUw2NWhFVThQWmtyV3haUHJjci9kTjdRUk9INEE9PSIsIm1hYyI6IjE4NTVkNmI3ZGYyZDZmZmU4NDhmZTNhOTI2M2MzYjgwNmE3NWU1YWE1N2Q3M2U0ODhlMWQzMjJhODY1YzFlNzYifQ=="
+      ]
+    }
+  },
+  "username": "12210001",
+  "password": "Cba321456_",
+  "email": "bernard.req@gmail.com",
+  "api_key": "email api_key (optional)",
+  "target_email": "target email (optional)",
+  "login_url": "http://elearning.bsi.ac.id/login",
+  "login_locator": {
+    "username_input": "#username",
+    "password_input": "#password",
+    "login_button": "/html/body/div/div/div/div[2]/div/div[2]/form/div[3]/button"
+  },
+  "attend_locator": {
+    "ready": "/html/body/div[1]/div/div[2]/div/div[5]/div/form/center/button",
+    "not_ready": "/html/body/div[1]/div/div[2]/div/div[5]/div/center/button"
+  }
+}
