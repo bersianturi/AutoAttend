@@ -1,12 +1,12 @@
-from src import get_from_heroku, write_entry_point, Setup
+from src import get_from_config, write_entry_point, Setup
 
 
 def main() -> None:
     setup: Setup = {
-        'get': get_from_heroku,
-        'mail': True,
+        'get': get_from_config,
+        'mail': False,
         'verbose': False,
-        'cloud': True,
+        'cloud': False,
     }
 
     write_entry_point(setup)
