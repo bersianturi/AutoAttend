@@ -4,6 +4,7 @@ import logging
 
 from PIL import Image
 from datetime import datetime
+import pytz
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -111,6 +112,7 @@ class Base:
 
 
 class Attend(Base):
+    
     def __init__(
         self,
         day: str,
@@ -146,8 +148,8 @@ class Attend(Base):
             else self.timetable[day][key]
             for key in ('name', 'link')
         ]
-
-        self.data_log = f'{datetime.now().strftime("%d %b")} - {self.class_name}'
+        timezone = pytz.timezone('Asia/Jakarta')
+        self.data_log = f'{datetime.now(timezone).strftime("%d %b")} - {self.class_name}'
         self.rename_logger(self.data_log)
 
     def login(self) -> None:
@@ -185,9 +187,10 @@ class Attend(Base):
         return self.driver.find_element(By.XPATH, self.attend_locator['not_ready']).text
 
     def check_next_class(self) -> None:
+        timezone = pytz.timezone('Asia/Jakarta')
         current_time, today = (
-            datetime.now().strftime('%H:%M'),
-            datetime.now().strftime('%A').lower(),
+            datetime.now(timezone).strftime('%H:%M'),
+            datetime.now(timezone).strftime('%A').lower(),
         )
 
         next_class: Union[Literal[False], str]
@@ -227,7 +230,8 @@ def attend_class(
     cloud: bool,
 ) -> None:
     timetable = get('timetable')
-    today = datetime.now().strftime('%A').lower()
+    timezone = pytz.timezone('Asia/Jakarta')
+    today = datetime.now(timezone).strftime('%A').lower()
 
     if today not in timetable:
         return logging.info('No class today')
@@ -237,7 +241,8 @@ def attend_class(
     next_class, next_check = False, False
 
     class_schedule = timetable[today]['time']
-    current_time = datetime.now().strftime('%H:%M')
+    timezone = pytz.timezone('Asia/Jakarta')
+    current_time = datetime.now(timezone).strftime('%H:%M')
 
     if isinstance(class_schedule[0], list):
         for session, (start, end) in enumerate(class_schedule):
@@ -282,8 +287,9 @@ def job(
     timer = time.perf_counter()
 
     browser = Attend(day, session, get, verbose, cloud)
+    timezone = pytz.timezone('Asia/Jakarta')
 
-    logging.info(f'{datetime.now().strftime("%A")} - {browser.class_name}')
+    logging.info(f'{datetime.now(timezone).strftime("%A")} - {browser.class_name}')
     logging.info('Logging in...')
 
     attempt, logged_in, pushed, retry, pending, error, error_msg = (
